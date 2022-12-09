@@ -31,7 +31,7 @@ function Login() {
           .post("http://localhost:8080/user/signin", user)
           .then((response) => {
             console.log(response.data);
-            navigate("/login");
+            navigate("/home");
 
           }).catch((error)=>{
             alert("Incorrect Email Id or password ")

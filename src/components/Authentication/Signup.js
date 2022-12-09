@@ -22,7 +22,7 @@ function SignUp() {
           .then((response) => {
             console.log(response.data);
             alert("Account created successfully!!!");
-            navigate("/home");
+            navigate("/login");
 
           }).catch((error)=>{
             alert("Enter your details correctly")
